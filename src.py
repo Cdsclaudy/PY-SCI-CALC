@@ -353,7 +353,7 @@ lblDisplay.grid(row=0, column=5,columnspan=3)
 #______________________________MISCELLANEOUS_BLOCK_____________________________________________________________________
 
 def Exiting():
-    Exiting = messagebox.askyesno("Scientific Calculator", "Confirm if you want to exit")
+    Exiting = messagebox.askyesno("PY-SCI-CALC (Scientific Calculator)", "Confirm if you want to exit")
     if Exiting>0:
         root.destroy() #USED TO QUIT THE PROGRAM
         return
@@ -362,7 +362,7 @@ def Exiting():
 def About():
     ab=Tk()
     ab.title("About")
-    a=Label(ab,font=('Verdana',18),text="This project was created by Claudius D'souza")
+    a=Label(ab,font=('Verdana',18),text="This project was created by \n- Claudius D'souza\n- Chinnaobulaiahgari Venkata Eswar Sai Reddy\n- Chandana N")
     a.pack()
 
 # MENUBAR CREATION AND EMBED
